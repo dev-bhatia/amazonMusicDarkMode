@@ -5,6 +5,10 @@
   "version": "0.1.0",
   "description": "Learn's CSS Once Type Beat",
 
+  "icons": {
+      "16": "icon16.png"
+    },
+
   "content_scripts": [{
     "css": ["styles.css"],
     "matches": ["https://music.amazon.com/*"]
