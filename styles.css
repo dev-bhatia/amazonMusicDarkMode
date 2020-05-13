@@ -1,4 +1,8 @@
-body {
+#content-wrapper {
+  /* background: linear-gradient(-45deg, #b3b3b3, #808080, #cccccc, #a39b9b, #7a7a7a, #edf0c9); */
+	/* background-size: 400% 400%; */
+	/* animation: gradient 10s ease infinite; */
+  background: #808080;
 }
 
 .selectable.smartList:hover {
@@ -7,8 +11,16 @@ body {
 	animation: gradient 1s ease infinite;
 }
 
-#content-wrapper {
-  background-color: #c2c2c2;
+.selectable.songList:hover {
+  background: linear-gradient(90deg, #d7ffc9, #bdf9ff, #ffc9c9);
+	background-size: 400% 400%;
+	animation: gradient 1s ease infinite;
+}
+
+.tableList.songList {
+  background: linear-gradient(90deg, #d7ffc9, #bdf9ff, #ffc9c9);
+	background-size: 400% 400%;
+	animation: gradient 1s ease infinite;
 }
 
 @keyframes gradient {
