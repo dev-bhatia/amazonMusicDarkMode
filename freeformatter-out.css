@@ -10,6 +10,17 @@
 	content: attr(data-icon)
 }
 
+#content-wrapper {
+  background: #808080;
+}
+
+@keyframes gradient {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+
+
 .icon-add:before,
 .icon-addPlaylist:before,
 .icon-angleDown:before,
@@ -95,6 +106,7 @@
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
 	text-decoration: inherit
+	color:#FFFFFF;
 }
 
 .icon-add:before {
@@ -6547,7 +6559,7 @@ a.headerPlayAll:hover {
 
 .songList .hasError,
 .songList .hasError .titleCell {
-	color: grey
+	color: #000000;
 }
 
 .songList .playCell .failed {
@@ -9678,7 +9690,7 @@ tr.deleted td:hover a {
 
 .songlist .durationCell,
 .songTracks .durationCell {
-	color: inherit
+	color: #000000;
 }
 
 .albumList td,
@@ -9739,7 +9751,7 @@ tr.deleted td:hover a {
 .songList .titleCell,
 .titleCell {
 	width: 30%;
-	color: #333
+	color: #000
 }
 
 .artistCell {

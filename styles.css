@@ -1,36 +1,38 @@
 #content-wrapper {
-  /* background: linear-gradient(-45deg, #b3b3b3, #808080, #cccccc, #a39b9b, #7a7a7a, #edf0c9); */
-	/* background-size: 400% 400%; */
-	/* animation: gradient 10s ease infinite; */
   background: #808080;
+}
+@keyframes gradient {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+
+.selectable {
+  color: black;
+}
+
+.sortable {
+  color: black;
 }
 
 .selectable.smartList:hover {
   background: linear-gradient(90deg, #d7ffc9, #bdf9ff, #ffc9c9);
 	background-size: 400% 400%;
 	animation: gradient 1s ease infinite;
+  color: black;
 }
 
 .selectable.songList:hover {
   background: linear-gradient(90deg, #d7ffc9, #bdf9ff, #ffc9c9);
 	background-size: 400% 400%;
 	animation: gradient 1s ease infinite;
+  color: black;
 }
 
-.tableList.songList {
-  background: linear-gradient(90deg, #d7ffc9, #bdf9ff, #ffc9c9);
-	background-size: 400% 400%;
-	animation: gradient 1s ease infinite;
+#smartListTableSubHeader {
+  color: black;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+#songsTabHeader {
+  color: black;
 }

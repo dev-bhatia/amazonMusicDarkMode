@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Amazon Music Dark Mode",
-  "version": "0.1.0",
-  "description": "Learn's CSS Once Type Beat",
+  "name": "Amazon Music Disco",
+  "version": "0.0.0",
+  "description": "CSS Pain",
 
   "icons": {
       "16": "icon16.png"
@@ -13,5 +13,4 @@
     "css": ["styles.css"],
     "matches": ["https://music.amazon.com/*"]
   }]
-
 }
