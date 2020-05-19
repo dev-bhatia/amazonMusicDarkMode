@@ -1,4 +1,4 @@
-	@font-face {
+@font-face {
 	font-family: AmznMusic;
 	src: url(https://m.media-amazon.com/images/G/01/digital/music/player/font/AmznMusic.eot);
 	src: url(https://m.media-amazon.com/images/G/01/digital/music/player/font/AmznMusic.eot#iefix) format("embedded-opentype"), url(https://m.media-amazon.com/images/G/01/digital/music/player/font/AmznMusic.woff) format("woff"), url(https://m.media-amazon.com/images/G/01/digital/music/player/font/AmznMusic.ttf) format("truetype"), url(https://m.media-amazon.com/images/G/01/digital/music/player/font/AmznMusic.svg#AmznMusic) format("svg");
@@ -9,17 +9,6 @@
 [data-icon]:before {
 	content: attr(data-icon)
 }
-
-#content-wrapper {
-  background: #808080;
-}
-
-@keyframes gradient {
-	0% { background-position: 0% 50%; }
-	50% { background-position: 100% 50%; }
-	100% { background-position: 0% 50%; }
-}
-
 
 .icon-add:before,
 .icon-addPlaylist:before,
@@ -106,7 +95,6 @@
 	-webkit-font-smoothing: antialiased;
 	display: inline-block;
 	text-decoration: inherit
-	color:#FFFFFF;
 }
 
 .icon-add:before {
@@ -3855,7 +3843,7 @@ body.language-ja {
 	font: 16px/1.5 Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif!important;
 	-webkit-font-smoothing: antialiased!important;
 	text-rendering: optimizeLegibility!important;
-	color: #7c8289!important;
+	/* color: #7c8289!important; */
 	letter-spacing: .5px!important
 }
 
@@ -3879,7 +3867,7 @@ body.language-ja {
 .verificationContainer #enterCreditCardForm h2 {
 	font-size: .8125rem!important;
 	font-weight: 500!important;
-	color: #000!important;
+	/* color: #000!important; */
 	margin: 0!important;
 	padding: 5px!important
 }
@@ -3894,7 +3882,7 @@ body.language-ja {
 
 TABLE.roundedBox {
 	font: 16px/1.5 Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif!important;
-	color: #7c8289!important;
+	/* color: #7c8289!important; */
 	text-align: left!important;
 	text-decoration: none!important
 }
@@ -6559,7 +6547,7 @@ a.headerPlayAll:hover {
 
 .songList .hasError,
 .songList .hasError .titleCell {
-	color: #000000;
+	color: grey
 }
 
 .songList .playCell .failed {
@@ -8103,7 +8091,7 @@ span.button .buttonOption {
 }
 
 .a-color-base {
-	color: #333!important
+	/* color: #FFF!important */
 }
 
 .a-link-normal {
@@ -9690,7 +9678,7 @@ tr.deleted td:hover a {
 
 .songlist .durationCell,
 .songTracks .durationCell {
-	color: #000000;
+	color: inherit
 }
 
 .albumList td,
@@ -9744,14 +9732,14 @@ tr.deleted td:hover a {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	font-weight: 500
+	font-weight: 500;
 }
 
 .albumList .titleCell,
 .songList .titleCell,
 .titleCell {
 	width: 30%;
-	color: #000
+	color: #FFF
 }
 
 .artistCell {
@@ -12846,7 +12834,7 @@ tr.deleted td:hover a {
 }
 
 .horizontalTile.greyOut .albumArtWrapper img {
-	opacity: .32!important
+	/* opacity: .32!important */
 }
 
 .horizontalTile.greyOut .primaryTitle,
@@ -15984,7 +15972,7 @@ img.albumArtBlur {
 
 .multiselectBar .selectBarButton.disabled {
 	cursor: default;
-	opacity: .4!important
+	/* opacity: .4!important */
 }
 
 .multiselectBar .selectBarButton.disabled:hover {
@@ -24892,3 +24880,7 @@ only screen and (min-resolution:192dpi) {
 
 .playqueue-view .hidden {
 	visibility: hidden
+}
+
+
+/*# sourceMappingURL=WebPlayer.cloudPlayerWeb_cp_css.40d4c2111acddf05050e.css.map*/
