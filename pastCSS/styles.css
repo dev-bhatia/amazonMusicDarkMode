@@ -7,18 +7,6 @@
 	100% { background-position: 0% 50%; }
 }
 
-body {
-  color:black!important;
-}
-
-.selectable {
-  color: black;
-}
-
-.sortable {
-  color: black;
-}
-
 .selectable.songList .titleCell,
 .selectable.smartList .titleCell {
     width: 30%;
@@ -29,14 +17,14 @@ body {
   background: linear-gradient(90deg, #d7ffc9, #bdf9ff, #ffc9c9);
 	background-size: 400% 400%;
 	animation: gradient 1s ease infinite;
-  color: black;
+  color: black!important;
 }
 
 .selectable.songList:hover {
   background: linear-gradient(90deg, #d7ffc9, #bdf9ff, #ffc9c9);
 	background-size: 400% 400%;
 	animation: gradient 1s ease infinite;
-  color: black;
+  color: black!important;
 }
 
 #smartListTableSubHeader {
@@ -68,4 +56,25 @@ body {
 .horizontalTile .detailsWithIndex .secondaryTitle,
 .horizontalTile .detailsWithIndex .secondaryTitle a {
   color: black!important;
+}
+
+#dragonflyTransport .scrubberBackgroundContainer .scrubberBackground {
+  opacity: 0.15!important;
+  background-image: linear-gradient(90deg, #d7ffc9, #bdf9ff, #ffc9c9)!important;
+	background-size: 400% 400%!important;
+	animation: gradient 1s ease infinite!important;
+}
+
+#dragonflyTransport .playbackControls .nextButton:not(.disabled),
+#dragonflyTransport .playbackControls .playButton:not(.disabled),
+#dragonflyTransport .playbackControls .previousButton:not(.disabled) {
+    color: #000#!important;
+}
+
+tr.currentlyPlaying .durationCell,
+tr.currentlyPlaying .playCell:before,
+tr.currentlyPlaying a,
+tr.currentlyPlaying td,
+tr.currentlyPlaying td.titleCell {
+    color: #FFF!important;
 }

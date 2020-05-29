@@ -1,0 +1,386 @@
+body {
+  background-color: #000!important;
+}
+
+@keyframes gradient {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
+
+.mainErrorText, .secondaryText {
+  color: #6b6b6b!important;
+}
+
+a {
+  color: #FFF!important;
+}
+
+a:hover {
+  /* color: #DF7D7E!important; */
+  color: #157FC3!important;
+}
+
+a.selected {
+  color: #FFF!important;
+}
+
+.trackPopularityContainer .highlighted {
+  color: #DF7D7E!important;
+}
+
+#content-wrapper {
+  background: #24292E;
+}
+
+.grid-rails .genericTile .detailsWrapper .primaryTitle a,
+.grid-rails .genericTile .detailsWrapperWithIndex .primaryTitle a {
+  color: #FFF!important;
+}
+
+.horizontalTile .details .primaryTitle,
+.horizontalTile .details .primaryTitle a,
+.horizontalTile .detailsWithIndex .primaryTitle,
+.horizontalTile .detailsWithIndex .primaryTitle a {
+    color: #FFF!important;
+    font-size: .9375rem;
+}
+
+.grid-rails .genericTile .detailsWrapper .secondaryTitle a,
+.grid-rails .genericTile .detailsWrapperWithIndex .secondaryTitle a {
+  color: #6b6b6b!important;
+}
+
+.horizontalTile .details .secondaryTitle,
+.horizontalTile .details .secondaryTitle a,
+.horizontalTile .detailsWithIndex .secondaryTitle,
+.horizontalTile .detailsWithIndex .secondaryTitle a {
+  color: #6b6b6b!important;
+}
+
+.grid-rails .genericTile .detailsWrapper .secondaryTitle,
+.grid-rails .genericTile .detailsWrapperWithIndex .secondaryTitle {
+  color: #6b6b6b!important;
+}
+
+.stationTile.genericTile .details .primaryTitle {
+  color: #FFF!important;
+}
+
+.navButton .buttonContainer .title {
+  color: #FFF!important;
+}
+
+.navButton {
+  background-color: #31363F!important;
+}
+
+.navButton:hover {
+  background-color: #55595E!important;
+}
+
+.horizontalTile .playerIconDotMenu {
+  color: #0266D6!important;
+}
+
+.listViewStatusButtonInLibrary .add {
+  background: #EF7B30!important;
+}
+
+.listViewStatusButtonInLibrary .added {
+  background: #EF7B30!important;
+}
+
+.listViewStatusButtonInLibrary .stroke {
+  background: #EF7B30!important;
+}
+
+.primeBrowseHeader h1 {
+  color: #FFF!important;
+}
+
+#dragonflyView .card .titles h2 {
+  color: #FFF!important;
+}
+
+.mainViewHeader .headerText {
+  color: #FFF!important;
+}
+
+.headerIconContainer {
+  border: 3px solid #FFF!important;
+  color: #FFF!important;
+}
+
+.headerIconContainer:hover {
+  border: 3px solid #3572A5!important;
+  color: #3572A5!important;
+}
+
+.albumList .titleCell, .songList .titleCell, .titleCell {
+  color: #FFF!important;
+}
+
+.songlist .durationCell, .songTracks .durationCell {
+  color: #FFF!important;
+}
+
+.songCount {
+  color: #FFF!important;
+}
+
+.albumList .subHeader, .songList .subHeader {
+  background-color: #24292E!important;
+  color: #157FC3!important;
+}
+
+.headerContainer {
+  border-bottom: 0px!important;
+}
+
+.albumList td, .albumList th, .songList td, .songList th, .songTracks td, .songTracks th {
+  color: #FFF!important;
+}
+
+.selectable.smartList:hover {
+  /* background: linear-gradient(-45deg, #31363F, #28292b, #9DA5B4); */
+	/* background-size: 400% 400%; */
+	/* animation: gradient 3s ease infinite; */
+  background-color: #31363F!important;
+  color: black!important;
+}
+
+.selectable.songList:hover {
+  /* background: linear-gradient(-45deg, #31363F, #28292b, #9DA5B4); */
+	/* background-size: 400% 400%; */
+	/* animation: gradient 3s ease infinite; */
+  background-color: #31363F!important;
+  color: black!important;
+}
+
+.horizontalTile:hover {
+  background-color: #31363F!important;
+}
+
+.quickAddToPlaylist .topBar {
+  background-color: #31363F!important;
+}
+
+.quickAddToPlaylist .headerSection {
+  color: #FFF!important;
+}
+
+.quickAddToPlaylistButton .primaryTitle {
+  color: #FFF!important;
+}
+
+.quickAddToPlaylistButton .secondaryTitle {
+  color: #6b6b6b!important;
+}
+
+.playlistDetailsListItem .title {
+  color: #FFF!important;
+}
+
+.multiselectBar {
+  background-color: #1B1D24!important;
+}
+
+.albumList .selectable.selected td, .songList .selectable.selected td {
+  background: #9DA5B4!important;
+  color: #000!important;
+}
+
+.playlistDetailsList .selectedItem {
+  background: #9DA5B4!important;
+  color: #000!important;
+}
+
+.playlistDetailsListItem:not(.emptyRow) td {
+  border-bottom: 0px solid #FFF!important;
+}
+
+.playlistDetailsListItem:hover {
+  background-color: #31363F!important;
+}
+
+.albumDetailsTabContainer .albumDetailsTabs .tabs li a {
+  background-color: #31363F!important;
+  color: #EF7B30!important;
+  font-weight: 500!important;
+}
+
+.albumDetailsTabContainer .albumDetailsTabs .tabs li a:hover {
+  background-color: #D6D8DA!important;
+  color: #000!important;
+  font-weight: 500!important;
+}
+
+#dragonflyTransport .button.iconOnlyButton,
+#dragonflyView .button.iconOnlyButton {
+	color: #FFF!important;
+}
+
+#dragonflyTransport .button.iconOnlyButton:hover,
+#dragonflyView .button.iconOnlyButton:hover {
+	color: #157FC3!important;
+}
+
+.viewHeader .viewTitle {
+  color: #FFF!important;
+}
+
+.playlistDetailsListItem .albumDetailsListItem:hover {
+  color: #000!important;
+}
+
+body tr:hover {
+  background-color: #000!important;
+}
+
+.albumList .selectable, .ie .albumList td, .ie .songList td, .songList .hasError, .songList .selectable {
+  border: 0px solid #FFF!important;
+}
+
+.checkAllHeader .checkboxLabel, .selectCell .checkboxLabel {
+  background-color: #24292E!important;
+}
+
+#left-content.dragonfly.normalColorScheme {
+  background: #31363F linear-gradient(180deg,#28292b,#28292b)!important;
+}
+
+#dragonflyTransport.normalColorScheme {
+  background: #31363F linear-gradient(180deg,#28292b,#28292b)!important;
+}
+
+#dragonflyTransport {
+  box-shadow: 0 0px 0px #000!important;
+}
+
+.loadingScreen {
+  background-image: #24292E!important;
+  background-color: radial-gradient(circle closest-side,#24292E 0,rgba(70,155,241,0) 100%);
+}
+
+.suggestions-list {
+  background-color: #28292B!important;
+  box-shadow: None!important;
+  border: 0px solid #000!important;
+}
+
+.suggestions-list .remove, .suggestions-list .title {
+  color: #FFF!important;
+}
+
+suggestions-list li a.selectedItem, .suggestions-list li a {
+  font-size: 1rem!important;
+}
+
+.suggestions-list li a.selectedItem, .suggestions-list li a:hover {
+  background-color: #31363F!important;
+  font-size: 1rem!important;
+  color: #EF7B30!important;
+  font-weight: 500!important;
+}
+
+.searchViewHeader .libraryCatalogTabsToggle li a:hover {
+  background-color: #D6D8DA!important;
+  color: #000!important;
+  font-weight: 500!important;
+}
+
+.searchViewHeader .libraryCatalogTabsToggle li a {
+  background-color: #31363F!important;
+  color: #EF7B30!important;
+  font-weight: 500!important;
+}
+
+.searchViewHeader .searchViewTitle {
+  color: #FFF!important;
+}
+
+.search-content .search-results .search-navigation {
+  color: #EF7B30!important;
+}
+
+.ap_content,
+.ap_popover .ap_titlebar .ap_title {
+  background-color: #28292B!important;
+  color: #FFF!important;
+}
+
+.ap_body {
+  background-color: rgba(255, 0, 0, 0)!important;
+}
+
+.ap_content {
+  border-radius: 25px!important;
+}
+
+.button.secondary .buttonOption {
+  background-color: #D6D8DA!important;
+  color: #000!important;
+  border-color: #D6D8DA!important;
+}
+
+span.button .buttonOption {
+  background-color: #a32e26!important;
+  color: #FFF!important;
+  border-color: #a32e26!important;
+}
+
+.button .buttonOption:hover {
+  background-color: #31363F!important;
+  color: #FFF!important;
+}
+
+.button.primary {
+  background-color: #28292B!important;
+}
+
+.button.secondary {
+  background-color: #28292B!important;
+}
+
+.button {
+  background-color: None!important;
+  border: 0px solid!important;
+  padding: 5px;
+}
+
+.ap_popover .ap_titlebar {
+  background-color: rgba(255, 0, 0, 0)!important;
+}
+
+.grid-rails .genericTile .albumArtWrapper {
+  border-radius: 25px;
+}
+
+.horizontalTile .albumArtWrapper img {
+  border-radius: 5px;
+}
+
+body div {
+  border-radius: 5px;
+}
+
+.navigationToggle .backgroundImageGradient {
+  background-image: linear-gradient(180deg,rgba(36,41,46,0.8),rgba(36,41,46,0.9),rgba(36,41,46,1))!important;
+}
+
+.navigationToggle .title {
+  color: #FFF!important;
+}
+
+.grid-rails .featuredTile .title, .grid-rails .peek .title {
+  color: #6b6b6b!important;
+}
+
+#dragonflyView .button.artistFollowButton .followArtistText {
+  color: #FFF!important;
+}
+
+#dragonflyView .button.artistFollowButton {
+  box-shadow: inset 0 0 0 2px #FFF!important;
+}

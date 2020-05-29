@@ -1,16 +1,16 @@
 {
   "manifest_version": 2,
 
-  "name": "Amazon Music Disco",
-  "version": "0.0.0",
-  "description": "CSS Pain",
+  "name": "Amazon Music Dark Mode",
+  "version": "0.0.1",
+  "description": "CSS Magic for the few of us who use AmazonMusic",
 
   "icons": {
       "16": "icon16.png"
     },
 
   "content_scripts": [{
-    "css": ["styles.css"],
+    "css": ["dev.css"],
     "run_at": "document_start",
     "matches": ["https://music.amazon.com/*"]
   }]
