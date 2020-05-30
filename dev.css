@@ -266,7 +266,7 @@ a.selected {
 }
 
 .loadingScreen {
-  background-image: #24292E!important;
+  background-image: linear-gradient(90deg, #303030, #1a1818, #292525)!important;
   background-color: #24292E!important;
 }
 
