@@ -17,7 +17,8 @@ a {
 }
 
 a:hover {
-  color: #EF7B30!important;
+  color: #f7ff59!important;
+  /* color: #EF7B30!important; */
   /* color: #157FC3!important; */
   font-weight: 500!important;
 }
@@ -207,7 +208,8 @@ a.selected {
 
 .albumDetailsTabContainer .albumDetailsTabs .tabs li a {
   background-color: #31363F!important;
-  color: #EF7B30!important;
+  /* color: #EF7B30!important; */
+  color: #f7ff59!important
   font-weight: 500!important;
 }
 
@@ -277,7 +279,8 @@ suggestions-list li a.selectedItem, .suggestions-list li a {
 .suggestions-list li a.selectedItem, .suggestions-list li a:hover {
   background-color: #31363F!important;
   font-size: 1rem!important;
-  color: #EF7B30!important;
+  /* color: #EF7B30!important; */
+  color: #f7ff59!important;
   font-weight: 500!important;
 }
 
@@ -289,7 +292,8 @@ suggestions-list li a.selectedItem, .suggestions-list li a {
 
 .searchViewHeader .libraryCatalogTabsToggle li a {
   background-color: #24292E!important;
-  color: #EF7B30!important;
+  /* color: #EF7B30!important; */
+  color: #f7ff59!important;
   font-weight: 500!important;
 }
 
@@ -298,7 +302,8 @@ suggestions-list li a.selectedItem, .suggestions-list li a {
 }
 
 .search-content .search-results .search-navigation {
-  color: #EF7B30!important;
+  /* color: #EF7B30!important; */
+  color: #f7ff59!important;
 }
 
 .ap_content,
@@ -478,7 +483,8 @@ tr:hover td {
 
 #contextMenuContainer li:hover {
   background-color: #31363F!important;
-  color: #EF7B30!important;
+  /* color: #EF7B30!important; */
+  color: #f7ff59!important;
   font-weight: 500!important;
 }
 
@@ -492,4 +498,8 @@ tr:hover td {
 
 .topHitTile .artOverlay .background {
   border-radius: 25px;
+}
+
+.trackAlbumArt .albumArtWrapper, .trackAlbumArt .albumArtWrapper img {
+  border-radius: 5px;
 }

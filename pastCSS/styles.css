@@ -78,3 +78,5 @@ tr.currentlyPlaying td,
 tr.currentlyPlaying td.titleCell {
     color: #FFF!important;
 }
+
+.trackAlbumArt .albumArtWrapper, .trackAlbumArt .albumArtWrapper img

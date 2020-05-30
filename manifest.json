@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Amazon Music Dark Mode",
+  "name": "Dark Mode AmazonMusic ",
   "version": "0.0.1",
-  "description": "CSS Magic for the few of us who use AmazonMusic",
+  "description": "CSS Dark Mode Attempt for AmazonMusic Site",
 
   "icons": {
       "16": "icon16.png",
