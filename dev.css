@@ -115,8 +115,10 @@ a.selected {
 }
 
 .headerIconContainer:hover {
-  border: 3px solid #3572A5!important;
-  color: #3572A5!important;
+  /* border: 3px solid #3572A5!important; */
+  border: 3px solid #f7ff59!important;
+  /* color: #3572A5!important; */
+  color: #f7ff59!important;
 }
 
 .albumList .titleCell, .songList .titleCell, .titleCell {
@@ -133,7 +135,12 @@ a.selected {
 
 .albumList .subHeader, .songList .subHeader {
   background-color: #24292E!important;
-  color: #157FC3!important;
+  /* color: #157FC3!important; */
+  color: #f7ff59!important;
+}
+
+.headerIcon.icon-play:hover {
+  color: #f7ff59!important;
 }
 
 .headerContainer {
@@ -226,7 +233,8 @@ a.selected {
 
 #dragonflyTransport .button.iconOnlyButton:hover,
 #dragonflyView .button.iconOnlyButton:hover {
-	color: #157FC3!important;
+	/* color: #157FC3!important; */
+  color: #f7ff59!important;
 }
 
 .viewHeader .viewTitle {
@@ -451,8 +459,10 @@ tr:hover td {
 
 .listViewTrackNumber .pausedButton, .listViewTrackNumber .playButton, .listViewTrackNumber .playingButton,
 .rowItemIndex .pausedButton, .rowItemIndex .playButton, .rowItemIndex .playingButton:hover {
-  color: #157FC3!important;
-  border: 1px solid #157FC3!important;
+  /* color: #157FC3!important; */
+  color: #f7ff59!important;
+  /* border: 1px solid #157FC3!important; */
+  border: 1px solid #f7ff59!important;
 }
 
 .listViewDurationContextButton .listViewContextButton {
