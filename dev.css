@@ -485,3 +485,11 @@ tr:hover td {
 .rowItem:hover {
   background-color: #31363F!important;
 }
+
+.topHitTile .albumArtWrapper, .topHitTile .albumArtWrapper img {
+  border-radius: 25px;
+}
+
+.topHitTile .artOverlay .background {
+  border-radius: 25px;
+}
