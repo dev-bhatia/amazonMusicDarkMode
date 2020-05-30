@@ -6,7 +6,8 @@
   "description": "CSS Magic for the few of us who use AmazonMusic",
 
   "icons": {
-      "16": "icon16.png"
+      "16": "icon16.png",
+      "32": "icon32.png"
     },
 
   "content_scripts": [{

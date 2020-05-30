@@ -9,16 +9,17 @@ body {
 }
 
 .mainErrorText, .secondaryText {
-  color: #6b6b6b!important;
-}
-
-a {
   color: #FFF!important;
 }
 
+a {
+  color: #FFF!important
+}
+
 a:hover {
-  /* color: #DF7D7E!important; */
-  color: #157FC3!important;
+  color: #EF7B30!important;
+  /* color: #157FC3!important; */
+  font-weight: 500!important;
 }
 
 a.selected {
@@ -211,7 +212,7 @@ a.selected {
 }
 
 .albumDetailsTabContainer .albumDetailsTabs .tabs li a:hover {
-  background-color: #D6D8DA!important;
+  background-color: #31363F!important;
   color: #000!important;
   font-weight: 500!important;
 }
@@ -232,10 +233,6 @@ a.selected {
 
 .playlistDetailsListItem .albumDetailsListItem:hover {
   color: #000!important;
-}
-
-body tr:hover {
-  background-color: #000!important;
 }
 
 .albumList .selectable, .ie .albumList td, .ie .songList td, .songList .hasError, .songList .selectable {
@@ -260,7 +257,7 @@ body tr:hover {
 
 .loadingScreen {
   background-image: #24292E!important;
-  background-color: radial-gradient(circle closest-side,#24292E 0,rgba(70,155,241,0) 100%);
+  background-color: #24292E!important;
 }
 
 .suggestions-list {
@@ -291,7 +288,7 @@ suggestions-list li a.selectedItem, .suggestions-list li a {
 }
 
 .searchViewHeader .libraryCatalogTabsToggle li a {
-  background-color: #31363F!important;
+  background-color: #24292E!important;
   color: #EF7B30!important;
   font-weight: 500!important;
 }
@@ -361,8 +358,14 @@ span.button .buttonOption {
   border-radius: 5px;
 }
 
-body div {
+.horizontalTile .albumArtWrapper, .horizontalTile .albumArtWrapper img {
   border-radius: 5px;
+}
+
+#left-content.dragonfly.normalColorScheme,
+#dragonflyTransport.normalColorScheme,
+.ui-layout-content {
+  border-radius: 0px;
 }
 
 .navigationToggle .backgroundImageGradient {
@@ -383,4 +386,102 @@ body div {
 
 #dragonflyView .button.artistFollowButton {
   box-shadow: inset 0 0 0 2px #FFF!important;
+}
+
+.playCell .playLinkIcon {
+  font-size: 25px;
+}
+
+.rowItemIndex .pausedButton, .rowItemIndex .playButton, .rowItemIndex .playingButton {
+  border: 1px solid #FFF!important;
+  color: #FFF!important;
+  tranistion: none;
+}
+
+.rowItemIndex .pausedButton, .rowItemIndex .playButton, .rowItemIndex .playingButton:hover {
+  border: 1px solid #DF7D7E!important;
+  color: #DF7D7E!important;
+  tranistion: none;
+}
+
+.checkboxContainer .checkboxLabel {
+  background-color: #24292E!important;
+}
+
+.rowItemMenus {
+  color: #0266D6!important;
+}
+
+.topHitTile .details .secondaryTitle, .topHitTile .details .secondaryTitle a {
+  color: #6b6b6b!important;
+}
+
+#dragonflyView .playlistDetailsHeader .playlistHeaderArt img {
+  border-radius: 25px;
+}
+
+#dragonflyView .playlistDetailsHeader .playlistHeaderArt .albumArtWrapper {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0)!important;
+  background: #24292E!important;
+}
+
+#dragonflyLeftNav .newPlaylist:hover {
+  background-color: #FFF!important;
+}
+
+.playlistDetailsListItem .albumArtistSeparator, .playlistDetailsListItem .albumName {
+  color: #FFF!important;
+}
+
+tr:hover td {
+  background-color: #31363F!important;
+  color: #FFF!important;
+}
+
+.listViewTrackNumber .pausedButton, .listViewTrackNumber .playButton, .listViewTrackNumber .playingButton,
+.rowItemIndex .pausedButton, .rowItemIndex .playButton, .rowItemIndex .playingButton {
+  color: #FFF!important;
+  border: 1px solid #FFF!important;
+}
+
+.listViewTrackNumber .pausedButton, .listViewTrackNumber .playButton, .listViewTrackNumber .playingButton,
+.rowItemIndex .pausedButton, .rowItemIndex .playButton, .rowItemIndex .playingButton:hover {
+  color: #157FC3!important;
+  border: 1px solid #157FC3!important;
+}
+
+.listViewDurationContextButton .listViewContextButton {
+  border: 0px solid #FFF!important;
+  background-color: #31363F!important;
+}
+
+.dragonfly section.menuPanel {
+  background-color: #28292B!important;
+  box-shadow: None!important;
+  border: 0px solid #000!important;
+}
+
+#contextMenuContainer section.menuPanel {
+  background-color: #28292B!important;
+  font-size: 0.75rem!important;
+  box-shadow: None!important;
+  border: 0px solid #000!important;
+}
+
+#contextMenuContainer li {
+  color: #FFF!important;
+}
+
+#contextMenuContainer li a{
+  color: #FFF!important;
+}
+
+#contextMenuContainer li:hover {
+  background-color: #31363F!important;
+  color: #EF7B30!important;
+  font-weight: 500!important;
+}
+
+.rowItem:hover {
+  background-color: #31363F!important;
 }
