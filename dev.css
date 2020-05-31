@@ -563,3 +563,8 @@ tr:hover td {
   font-size: 1.25rem!important;
   font-weight: 500!important;
 }
+
+.nowPlayingView .nowPlayingViewContainer .nowPlayingViewBody .nowPlayingLyricsContainer .lyricsLine.highlighted {
+  font-weight: 1000;
+  color: #f7ff59!important;
+}
