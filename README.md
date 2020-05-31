@@ -5,10 +5,49 @@
 
 #### I came across [this post](https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css/) leading me to [this repository](https://github.com/lateral/chrome-extension-blogpost) when researching how to get started
 
-## __Preview__
+## __Select Features__
 #### For testing, I've been running this as an extension on Chrome (not public).   
-#### See the items below for a quick preview!
+#### See the sections below for a quick preview!
 
+#### __Home Page__
+<table border="0">
+ <tr>
+    <td><b style="font-size:15px">Before</b></td>
+    <td><b style="font-size:15px">After</b></td>
+ </tr>
+ <tr>
+    <td><img src="repo_images/Home_Before.gif" alt="Before"></td>
+    <td><img src="repo_images/Home_After.gif" alt="After"></td>
+ </tr>
+</table>
+
+#### __Song List, Albums, & Playlists__
+<table border="0">
+ <tr>
+    <td><b style="font-size:15px">Before</b></td>
+    <td><b style="font-size:15px">After</b></td>
+ </tr>
+ <tr>
+    <td><img src="repo_images/.gif" alt="Before"></td>
+    <td><img src="repo_images/.gif" alt="After"></td>
+ </tr>
+</table>
+
+#### __Lyrics__
+<table border="0">
+ <tr>
+    <td><b style="font-size:15px">Before</b></td>
+    <td><b style="font-size:15px">After</b></td>
+ </tr>
+ <tr>
+    <td><img src="repo_images/Lyrics_Before.gif" alt="Before"></td>
+    <td><img src="repo_images/Lyrics_After.gif" alt="After"></td>
+ </tr>
+</table>
+
+#### __Search & Horizontal Header__
+
+#### __Side Menu__
 
 ## __:bangbang: IMPORTANT__
 #### This project currently does NOT have a license. Based on github's guidance from [this link](https://choosealicense.com/no-permission/), please contact me directly for permission to use any portions of the software in [this repository (dev-bhatia/amazonMusicDarkUI)](https://github.com/dev-bhatia/amazonMusicDarkUI).
