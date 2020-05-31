@@ -266,8 +266,9 @@ a.selected {
 }
 
 .loadingScreen {
-  background-image: linear-gradient(90deg, #303030, #1a1818, #292525)!important;
+  background-image: linear-gradient(90deg, #303030, #1a1818, #303030)!important;
   background-color: #24292E!important;
+  background-size: 100% 100%!important;
 }
 
 .suggestions-list {
@@ -438,8 +439,14 @@ span.button .buttonOption {
   background: #24292E!important;
 }
 
+#dragonflyLeftNav .newPlaylist {
+  background-color: #636363!important;
+  border-radius: 10px;
+}
+
 #dragonflyLeftNav .newPlaylist:hover {
-  background-color: #FFF!important;
+  background-color: #55595E!important;
+  border-radius: 20px;
 }
 
 .playlistDetailsListItem .albumArtistSeparator, .playlistDetailsListItem .albumName {
@@ -512,4 +519,47 @@ tr:hover td {
 
 .trackAlbumArt .albumArtWrapper, .trackAlbumArt .albumArtWrapper img {
   border-radius: 5px;
+}
+
+.dialogContainer {
+  color: #FFF!important;
+}
+
+#dialogBoxView .closeButton {
+  color: #FFF!important;
+}
+
+.dialogContainer .dialogHeader {
+  color: #FFF!important;
+}
+
+.buttonContainer .buttonOption {
+  color: #FFF!important;
+  background-color: #31363F!important;
+}
+
+.buttonContainer .buttonOption:hover {
+  color: #FFF!important;
+  background-color: #55595E!important;
+}
+
+#globalRactiveContainer .nowPlayingView .nowPlayingPlaybackControls .button:hover {
+  color: #f7ff59!important;
+}
+
+#globalRactiveContainer .nowPlayingView .nowPlayingPlaybackControls .repeatButton:hover {
+  color: #f7ff59!important;
+}
+
+#globalRactiveContainer .nowPlayingView .nowPlayingPlaybackControls .shuffleButton:hover {
+  color: #f7ff59!important;
+}
+
+.nowPlayingView .nowPlayingViewContainer .nowPlayingViewBody .nowPlayingTrackDetail .trackInformation .trackTitle .title {
+  font-weight: 500;
+}
+
+.nowPlayingView .nowPlayingViewContainer .nowPlayingViewBody .nowPlayingPlaybackControls .scrubberBarContainer .songDuration.shown {
+  font-size: 1.25rem!important;
+  font-weight: 500!important;
 }
