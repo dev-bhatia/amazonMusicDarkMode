@@ -213,15 +213,28 @@ a.selected {
   background-color: #31363F!important;
 }
 
-.albumDetailsTabContainer .albumDetailsTabs .tabs li a {
-  background-color: #31363F!important;
+.searchViewHeader .libraryCatalogTabsToggle li a:hover {
+  background-color: #D6D8DA!important;
+  color: #000!important;
+  font-weight: 500!important;
+}
+
+.searchViewHeader .libraryCatalogTabsToggle li a {
+  background-color: #24292E!important;
   /* color: #EF7B30!important; */
-  color: #f7ff59!important
+  color: #f7ff59!important;
+  font-weight: 500!important;
+}
+
+.albumDetailsTabContainer .albumDetailsTabs .tabs li a {
+  background-color: #24292E!important;
+  /* color: #EF7B30!important; */
+  color: #f7ff59!important;
   font-weight: 500!important;
 }
 
 .albumDetailsTabContainer .albumDetailsTabs .tabs li a:hover {
-  background-color: #31363F!important;
+  background-color: #D6D8DA!important;
   color: #000!important;
   font-weight: 500!important;
 }
@@ -288,19 +301,6 @@ suggestions-list li a.selectedItem, .suggestions-list li a {
 .suggestions-list li a.selectedItem, .suggestions-list li a:hover {
   background-color: #31363F!important;
   font-size: 1rem!important;
-  /* color: #EF7B30!important; */
-  color: #f7ff59!important;
-  font-weight: 500!important;
-}
-
-.searchViewHeader .libraryCatalogTabsToggle li a:hover {
-  background-color: #D6D8DA!important;
-  color: #000!important;
-  font-weight: 500!important;
-}
-
-.searchViewHeader .libraryCatalogTabsToggle li a {
-  background-color: #24292E!important;
   /* color: #EF7B30!important; */
   color: #f7ff59!important;
   font-weight: 500!important;
