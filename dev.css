@@ -214,6 +214,12 @@ a.selected {
 }
 
 .searchViewHeader .libraryCatalogTabsToggle li a:hover {
+  background-color: #FFF!important;
+  color: #EF7B30!important;
+  font-weight: 500!important;
+}
+
+.searchViewHeader .libraryCatalogTabsToggle li a.selected {
   background-color: #D6D8DA!important;
   color: #000!important;
   font-weight: 500!important;
@@ -221,19 +227,25 @@ a.selected {
 
 .searchViewHeader .libraryCatalogTabsToggle li a {
   background-color: #24292E!important;
-  /* color: #EF7B30!important; */
-  color: #f7ff59!important;
+  color: #EF7B30!important;
+  /* color: #f7ff59!important; */
   font-weight: 500!important;
 }
 
 .albumDetailsTabContainer .albumDetailsTabs .tabs li a {
   background-color: #24292E!important;
-  /* color: #EF7B30!important; */
-  color: #f7ff59!important;
+  color: #EF7B30!important;
+  /* color: #f7ff59!important; */
   font-weight: 500!important;
 }
 
 .albumDetailsTabContainer .albumDetailsTabs .tabs li a:hover {
+  background-color: #FFF!important;
+  color: #EF7B30!important;
+  font-weight: 500!important;
+}
+
+.albumDetailsTabContainer .albumDetailsTabs .tabs li a.selected {
   background-color: #D6D8DA!important;
   color: #000!important;
   font-weight: 500!important;
@@ -313,20 +325,6 @@ suggestions-list li a.selectedItem, .suggestions-list li a {
 .search-content .search-results .search-navigation {
   /* color: #EF7B30!important; */
   color: #f7ff59!important;
-}
-
-.ap_content,
-.ap_popover .ap_titlebar .ap_title {
-  background-color: #28292B!important;
-  color: #FFF!important;
-}
-
-.ap_body {
-  background-color: rgba(255, 0, 0, 0)!important;
-}
-
-.ap_content {
-  border-radius: 25px!important;
 }
 
 .button.secondary .buttonOption {
@@ -567,4 +565,78 @@ tr:hover td {
 .nowPlayingView .nowPlayingViewContainer .nowPlayingViewBody .nowPlayingLyricsContainer .lyricsLine.highlighted {
   font-weight: 1000;
   color: #f7ff59!important;
+}
+
+#dragonflyTransport .playbackControls .nextButton:not(.disabled):hover,
+#dragonflyTransport .playbackControls .playButton:not(.disabled):hover,
+#dragonflyTransport .playbackControls .previousButton:not(.disabled):hover {
+  color: #f7ff59!important;
+}
+
+#dragonflyTransport .trackInfoContainer a {
+  font-weight: 500;
+}
+
+#dragonflyTransport .rightControls .durationContainer .listViewDurationContextButton .listViewDuration {
+  font-weight: 500;
+}
+
+.playqueue-view .current-track {
+  background-color: #24292E!important;
+}
+
+.playqueue-view .title {
+  color: #FFF!important;
+  font-weight: 500;
+  border-bottom: 0px solid #FFF!important;
+}
+
+.playqueue-view .current-track .song-details .artist {
+  color: #FFF!important;
+}
+
+.playqueue-view .current-track .truncate {
+  color: #636363!important;
+}
+
+.playqueue-view .horizontalListItem {
+  border-top: 0px solid #FFF!important;
+}
+
+
+.ap_content,
+.ap_popover .ap_titlebar .ap_title {
+  background-color: #FFF!important;
+  color: #000!important;
+}
+
+.ap_body {
+  background-color: rgba(255, 0, 0, 0)!important;
+}
+
+.ap_content {
+  border-radius: 25px!important;
+}
+
+#createPlaylistDialog .buttonRow #savePlaylistDialog a {
+  background-color: #FFF!important;
+  color: #b8b8b8!important;
+  width: 20%!important;
+}
+
+#createPlaylistDialog .buttonRow #savePlaylistDialog a:hover {
+  background-color: #FFF!important;
+  color: #000!important;
+  width: 20%;
+}
+
+#newPlaylistName {
+  color: #000!important;
+  font-weight: 500!important;
+  border-radius: 25px;
+  border: 3px solid #B8b8b8!important;
+}
+
+#createPlaylistDialog .buttonRow #savePlaylistDialog {
+  background-color: #FFF!important;
 }
