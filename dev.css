@@ -640,3 +640,14 @@ tr:hover td {
 #createPlaylistDialog .buttonRow #savePlaylistDialog {
   background-color: #FFF!important;
 }
+
+#browsePanel .browsePanelHeader,
+#browsePanel .infiniteGrid,
+#browsePanelWrapper.open #browsePanel {
+  background-color: #24292E!important;
+  box-shadow: 0 0px 0px 0px #FFF;
+}
+
+#browsePanel .horizontalTile {
+  border-bottom: 0px solid #FFF!important;
+}
