@@ -651,3 +651,7 @@ tr:hover td {
 #browsePanel .horizontalTile {
   border-bottom: 0px solid #FFF!important;
 }
+
+.grid-rails .genericTile .albumArtWrapper {
+  box-shadow: none!important;
+}
