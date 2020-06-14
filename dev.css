@@ -659,3 +659,7 @@ tr:hover td {
 .nowPlayingView .nowPlayingViewContainer .nowPlayingViewBody .nowPlayingLyricsContainer .lyricsLine:hover {
   color: #45c4ff!important;
 }
+
+.horizontalTile .detailsWithIndex .index {
+  color: #73797F!important;
+}
