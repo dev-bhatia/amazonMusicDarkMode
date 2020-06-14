@@ -655,3 +655,7 @@ tr:hover td {
 .grid-rails .genericTile .albumArtWrapper {
   box-shadow: none!important;
 }
+
+.nowPlayingView .nowPlayingViewContainer .nowPlayingViewBody .nowPlayingLyricsContainer .lyricsLine:hover {
+  color: #45c4ff!important;
+}
