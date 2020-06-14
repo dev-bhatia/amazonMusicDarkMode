@@ -180,11 +180,13 @@ a.selected {
 }
 
 .quickAddToPlaylistButton .primaryTitle {
-  color: #FFF!important;
+  color: #EF7B30!important;
+  font-weight: bold!important;
 }
 
 .quickAddToPlaylistButton .secondaryTitle {
-  color: #6b6b6b!important;
+  color: #FFF!important;
+  font-weight: bold;
 }
 
 .playlistDetailsListItem .title {
@@ -662,4 +664,12 @@ tr:hover td {
 
 .horizontalTile .detailsWithIndex .index {
   color: #73797F!important;
+}
+
+.quickAddToPlaylistButton.horizontal:hover {
+  background-color: rgba(255, 255, 255, 0.15)!important;
+}
+
+.multiselectBar .selectBarButton:hover {
+  color: #f7ff59!important;
 }
