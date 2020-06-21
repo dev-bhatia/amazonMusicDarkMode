@@ -1,18 +1,25 @@
-# __Reduce Eye Strain on AmazonMusic website__
+# __Dark Mode on AmazonMusic website__
+
+---
 
 ## __About__
-#### Inspired from many "Dark Mode" UIs, I wanted to create one for the Amazon Music website so my eyes don't hurt when I'm working late at night. So with some CSS magic, here it is!
+### Inspired from many "Dark Mode" UIs, I wanted to create one for the Amazon Music website so my eyes don't hurt when I'm working late at night. So with some CSS magic, here it is!
 
+---
 
-## __Status__
+## __Key Goals__
+#### `1. Reduce Eye Strain across all pages with a Dark Mode`
+#### `2. Increase Readability for easier navigation`
+#### `3. Improve Overall Site Appearance`
+---
 
-### __TODOs__
-- [ ] #### Create Color Variables for CSS
-- [ ] #### Organize same elements as one block in CSS
+## __Video__
 
-### __Testing__
-#### I came across [this post](https://blog.lateral.io/2016/04/create-chrome-extension-modify-websites-html-css/) leading me to [this repository](https://github.com/lateral/chrome-extension-blogpost) when researching how to get started
+---
 
-#### I test my changes on Chrome by uploading the files as Chrome Extension (shown below).
+## __Current Testing__
+#### This feature is tested & can be used on as an extension on the Google Chrome browser. Check out the video below to see how you too can use this feature!
+
+---
 
 ## __Thanks for stopping by!__
