@@ -2,8 +2,6 @@
 
 ### Inspired from many "Dark Mode" UIs, I wanted to create one for the Amazon Music website so my eyes don't hurt when I'm working late at night. So with some CSS magic, here it is!
 
-#### _Include Video Here_
-
 ## __Focus__
 #### `1. Reduce Eye Strain across all pages with a Dark Mode`
 #### `2. Increase Readability for easier navigation`
