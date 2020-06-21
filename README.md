@@ -12,5 +12,7 @@
 ## __Install__
 ### This feature is tested & can be used on as an extension on the Google Chrome browser. Check out the video below to see how you too can use this feature!
 
+[![](http://img.youtube.com/vi/ueyMrHK5320/0.jpg)](http://www.youtube.com/watch?v=ueyMrHK5320 "Install AmazonMusic Dark Mode in Chrome")
+
 ## __Thanks for stopping by!__
 #### Suggestions, questions, or notice any bugs? Please don't hesitate to create an issue ticket on this repository or email me directly, djbhatia@ucsd.edu
