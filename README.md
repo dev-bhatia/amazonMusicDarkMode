@@ -18,5 +18,5 @@
 <img src="https://github.com/dev-bhatia/storage/blob/master/AMDM/HomePage.gif?raw=true"/>
 <img src="https://github.com/dev-bhatia/storage/blob/master/AMDM/Button.gif?raw=true"/>
 <img src="https://github.com/dev-bhatia/storage/blob/master/AMDM/Search.gif?raw=true"/>
-<img src="https://github.com/dev-bhatia/storage/blob/master/AMDM/Menu.gif?raw=true"/>
+<img src="https://github.com/dev-bhatia/storage/blob/master/AMDM/Menu2.gif?raw=true"/>
 <img src="https://github.com/dev-bhatia/storage/blob/master/AMDM/SongList.gif?raw=true"/>
