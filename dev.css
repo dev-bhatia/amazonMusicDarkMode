@@ -673,3 +673,15 @@ tr:hover td {
 .multiselectBar .selectBarButton:hover {
   color: #f7ff59!important;
 }
+
+.pushPermissionDialog {
+  color: #FFF!important;
+}
+
+.pushPermissionDialog #allowButton:hover {
+  color: #45c4ff!important;
+}
+
+.pushPermissionDialog #dismissButton:hover {
+  color: #FFF!important;
+}
