@@ -409,13 +409,13 @@ span.button .buttonOption {
 .rowItemIndex .pausedButton, .rowItemIndex .playButton, .rowItemIndex .playingButton {
   border: 1px solid #FFF!important;
   color: #FFF!important;
-  tranistion: none;
+  transition: none;
 }
 
 .rowItemIndex .pausedButton, .rowItemIndex .playButton, .rowItemIndex .playingButton:hover {
   border: 1px solid #DF7D7E!important;
   color: #DF7D7E!important;
-  tranistion: none;
+  transition: none;
 }
 
 .checkboxContainer .checkboxLabel {
