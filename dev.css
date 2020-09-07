@@ -674,14 +674,19 @@ tr:hover td {
   color: #f7ff59!important;
 }
 
-.pushPermissionDialog {
+.pushPermissionDialog,
+.pushPermissionDialog .dialogHeader {
   color: #FFF!important;
 }
 
 .pushPermissionDialog #allowButton:hover {
-  color: #45c4ff!important;
+  color: #000!important;
 }
 
 .pushPermissionDialog #dismissButton:hover {
+  color: #0266D6!important;
+}
+
+.singleList .titles h2 {
   color: #FFF!important;
 }
