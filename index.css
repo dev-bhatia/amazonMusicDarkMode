@@ -1,0 +1,11 @@
+.gif {
+  width: 70%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+  .gif {
+    width: 100% !important;
+    display: inline-block;
+  }
+}
