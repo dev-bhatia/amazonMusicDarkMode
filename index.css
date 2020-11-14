@@ -9,3 +9,7 @@
     display: inline-block;
   }
 }
+
+#text-icon-github {
+  font-size: calc(1rem + 0.8vw);
+}
