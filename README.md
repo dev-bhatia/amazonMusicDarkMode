@@ -1,8 +1,6 @@
 # __AmazonMusic Dark Mode__
 
-### Inspired by "Dark Mode" UIs, I wanted to create one for the Amazon Music website to reduce reduce eye strain and improve site readability. With some CSS magic, here it is.
-
-### Suggestions, questions, or notice any bugs? Please don't hesitate to create an issue ticket or email me, devjbhatia@gmail.com
+### Inspired by "Dark Mode" UIs, I wanted to create one for the Amazon Music website to reduce reduce eye strain and improve site readability. With some CSS magic, here it is. [View on Website](https://devbhatia.me/amazonMusicDarkMode/)
 
 # __Focus__
 ### 1. Reduce Eye Strain across all pages with a Dark Mode
