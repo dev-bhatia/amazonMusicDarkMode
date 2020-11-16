@@ -11,19 +11,6 @@ function hello(dispaly_element) {
   }, delayInMilliseconds);
 }
 
-// Intro
-const a1 = annotate(document.querySelector("#e1"), {
-  type: "highlight",
-  color: "yellow",
-  multiline: "true",
-  animationDuration: 1000
-});
-const a2 = annotate(document.querySelector("#e2"), {
-  type: "underline",
-  color: "red",
-  multiline: "true",
-  animationDuration: 1000
-});
 const a3 = annotate(document.querySelector("#e3"), {
   type: "highlight",
   color: "yellow",
@@ -32,5 +19,5 @@ const a3 = annotate(document.querySelector("#e3"), {
 });
 
 // SHOW ANIMATION
-const ag = annotationGroup([a1, a2, a3]);
+const ag = annotationGroup([a3]);
 hello(ag);
