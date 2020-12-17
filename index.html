@@ -1,199 +1,127 @@
+<!-- YEP, THIS IS THE ENTIRE SITE. -->
 <!DOCTYPE html>
 <html>
-  <!-- HEAD -->
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWHFC11PBP"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-JWHFC11PBP');
-    </script>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JWHFC11PBP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-JWHFC11PBP");
+  </script>
 
-    <!-- DEFAULTS -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="Dev Bhatia" />
-    <meta name="description" content="Dev Bhatia's Personal Website" />
-    <meta name="keywords" content="Engineer, Personal Website, Blog, UCSD" />
+  <!-- INFO -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Dev Bhatia" />
+  <meta name="description" content="Dev Bhatia's Website" />
+  <meta name="keywords" content="Engineer, Personal, Website, Blog, Projects" />
 
-    <!-- FAVICON -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="https://dev-bhatia.github.io/assets/favicon-32x32.png"
-    />
+  <!-- FAVICON -->
+  <link rel=icon href="https://raw.githubusercontent.com/dev-bhatia/storage/master/SITE/favicon-16x16.png">
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="https://dev-bhatia.github.io/assets/favicon-16x16.png"
-    />
+  <!-- SITE TITLE ON TAB-->
+  <title>Dev Bhatia | AmazonMusic Dark Mode</title>
 
-    <!-- SITE TITLE ON TAB-->
-    <title>Dev Bhatia</title>
+  <!-- BOOTSTRAP STYLES -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
 
-    <!-- CSS -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://dev-bhatia.github.io/base.css"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://dev-bhatia.github.io/panels.css"
-    />
+  <!-- BOOTSTRAP SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
 
-    <!-- FONT AWESOME ICONS -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- FONT AWESOME ICONS -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
-    <!-- SPECIFIC CSS -->
-    <link rel="stylesheet" type="text/css" href="index.css" />
-  </head>
+  <style>
+    /* BOX SHADOW */
+    .jumbotron {
+      -webkit-box-shadow: 0px 4px 15px 5px rgba(0, 0, 0, 0.36);
+      box-shadow: 0px 4px 15px 5px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
 
-  <body>
-    <center>
-      <div class="top">
-        <!-- NAME/HOME LINK -->
-        <a
-          href="/"
-          id="header"
-          style="display: inline-block"
-          data-tilt
-          data-tilt-scale="1.1"
-        >
-          <h1>Dev Bhatia</h1>
-          <h2>devbhatia.me</h2>
+<body>
+  <br />
+  <br />
+  <div class="container">
+    <!-- TOP NAV -->
+    <div class="d-flex flex-row bd-highlight flex-wrap" style="margin-bottom: 0;">
+      <div class="p-1 flex-grow-1 d-highlight">
+        <a href="/" class="btn btn-light"
+          style="background: linear-gradient(312deg, rgba(131,58,180,0.1) 0%, rgba(253,29,29,0.05) 50%, rgba(47,87,253,0.05) 72%, rgba(252,176,69,0.1) 100%);">
+          <i class="fas fa-chevron-left"></i>&nbsp;&nbsp;By&nbsp;Dev&nbsp;Bhatia
         </a>
-        
-        <!-- CONTACT -->
-        <h3>
-          <div id="contact" style="display: inline-block; padding-top: 30px">
-            <a
-              href="https://www.linkedin.com/in/dev-bhatia"
-              target="_blank"
-              id="pad"
-            >
-              &nbsp;&nbsp;&nbsp;
-              <i class="fab fa-linkedin" id="h3"></i>
-              &nbsp;LinkedIn
-            </a>
-            <a
-              href="https://www.github.com/dev-bhatia"
-              target="_blank"
-              id="pad"
-            >
-              &nbsp;&nbsp;&nbsp;
-              <i class="fab fa-github"></i>
-              &nbsp;GitHub
-            </a>
-            <a onclick="copyEmail()" id="pad">
-              &nbsp;&nbsp;&nbsp;
-              <i class="far fa-envelope"></i>
-              <span
-                style="cursor: pointer"
-                onclick="this.textContent = ('&nbsp;' + 'devjbhatia' + '@gmail' + String.fromCharCode(46) + 'com'); this.onclick = null; this.style.cursor='default'"
-              >
-                &nbsp;Email&nbsp;(click&nbsp;to&nbsp;reveal)
-              </span>
-            </a>
-          </div>
-        </h3>
-        <br />
-        <br />
-        <div class="fullPanel">
-          <h5 id="a3" style="display: inline-block">Amazon Music Dark Mode</h5>
-          <!-- Resume GIF -->
-          <h3>
-            Inspired by "Dark Mode" UIs, I wanted to create one for the Amazon
-            Music website to reduce reduce eye strain and improve site
-            readability. With some CSS magic, here it is. As of October
-            2020, this project has been archieved since AmazonMusic changed
-            their UI completely to a new dark mode.
-            <br />
-            <br />
-            <h4>              
-              <a href="https://youtu.be/mEDZIwatRrM" target="_blank">
-                <i class="fab fa-github" id="text-icon-github" style="color: black"></i>
-                Source Code on Github
-              </a>
-              <br />
-              <a href="https://youtu.be/YH4XNw9LY6w" target="_blank">
-                <i class="fab fa-youtube" style="color: red"></i>
-                How to install on Chrome
-              </a>
-              <br />
-              <br />
-              <span id="e3">Here's a preview of some of the features.</span>
-            </h4>
-            <br />
-            <br />
-            <center>
-              <img
-                class="gif"
-                src="https://github.com/dev-bhatia/storage/blob/master/AMDM/HomePage.gif?raw=true"
-                alt="demo-gif"
-              />
-              <br />
-              <br />
-              <br />
-              <img
-                class="gif"
-                src="https://github.com/dev-bhatia/storage/blob/master/AMDM/Button.gif?raw=true"
-                alt="demo-gif"
-              />
-              <br />
-              <br />
-              <br />
-              <img
-                class="gif"
-                src="https://github.com/dev-bhatia/storage/blob/master/AMDM/Search.gif?raw=true"
-                alt="demo-gif"
-              />
-              <br />
-              <br />
-              <br />
-              <img
-                class="gif"
-                src="https://github.com/dev-bhatia/storage/blob/master/AMDM/Menu2.gif?raw=true"
-                alt="demo-gif"
-              />
-              <br />
-              <br />
-              <br />
-              <img
-                class="gif"
-                src="https://github.com/dev-bhatia/storage/blob/master/AMDM/SongList.gif?raw=true"
-                alt="demo-gif"
-              />
-            </center>
-          </h3>
-        </div>
-        <br />
-        <br />
       </div>
-    </center>
+    </div>
 
-    <!-- MIND THE GAP -->
+    <!-- ABOUT -->
     <br />
     <br />
-    <br />
-    <br />
-    <center>Last Updated November 2020</center>
-    <br />
-    <br />
+    <div class="jumbotron"
+      style="border-radius: 25px; padding-top: 2rem; background: linear-gradient(312deg, rgba(131,58,180,0.1) 0%, rgba(253,29,29,0.05) 50%, rgba(47,87,253,0.05) 72%, rgba(252,176,69,0.1) 100%);">
+      <h2>AmazonMusic Dark&nbsp;Mode</h2>
+      <br />
+      <p class="lead">
+        Inspired by "Dark Mode" UIs, I wanted to create one for the Amazon
+        Music website to reduce reduce eye strain and improve site
+        readability. With some CSS magic, here it is.
+      </p>
+      <hr />
+      As of October
+      2020, this project has been archieved since AmazonMusic changed
+      their UI completely.
+      <br />
+      <br />
+      <a href="https://youtu.be/YH4XNw9LY6w" target="_blank" class="btn btn-danger">
+        <i class="fab fa-youtube"></i>
+        &nbsp;&nbsp;How to install on Chrome
+      </a>
+      <br />
+      <br />
+      <a href="https://www.github.com/dev-bhatia/amazonMusicDarkMode" target="_blank" class="btn btn-dark">
+        View on Github&nbsp;&nbsp;
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
 
-    <!-- SCRIPTS -->
-    <script type="module" src="js/index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script
-      src="https://dev-bhatia.github.io/js/tilt.jquery.js"
-      type="text/javascript"
-    ></script>
-  </body>
+    <!-- VIDEO  -->
+    <br />
+    <br />
+    <div class="jumbotron"
+      style="border-radius: 25px; padding-top: 2rem; background: linear-gradient(312deg, rgba(131,58,180,0.1) 0%, rgba(253,29,29,0.05) 50%, rgba(47,87,253,0.05) 72%, rgba(252,176,69,0.1) 100%);">
+      <h2>Preview</h2>
+      <br />
+      <br />
+      <center>
+        <iframe src="https://www.youtube.com/embed/mEDZIwatRrM?rel=0&amp;autoplay=1&mute=1&start=75" width="560" height="500"
+          style="display: inline-block; width: 90%;" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          mute
+          allowfullscreen>
+        </iframe>
+      </center>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  </div>
+
+</body>
+
 </html>
