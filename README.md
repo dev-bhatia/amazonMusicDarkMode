@@ -18,10 +18,3 @@ This feature is tested & can be used on as an extension on the Google Chrome bro
 
 [![AmazonMusic Dark Mode](http://img.youtube.com/vi/YH4XNw9LY6w/0.jpg)](http://www.youtube.com/watch?v=YH4XNw9LY6w "AmazonMusic Dark Mode")
 
-## Preview
-
-<img src="./docs/HomePage.gif?raw=true"/>
-<img src="./docs/Button.gif?raw=true"/>
-<img src="./docs/Search.gif?raw=true"/>
-<img src="./docs/Menu2.gif?raw=true"/>
-<img src="./docs/SongList.gif?raw=true"/>
